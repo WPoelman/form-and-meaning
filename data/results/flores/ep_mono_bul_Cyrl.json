@@ -1,0 +1,50 @@
+[
+    {
+        "NLL": 7.077400469354238,
+        "Perplexity": 1184.8843683472364,
+        "BPC": 4.800333756651958,
+        "MRR": 0.08960714011330707,
+        "Total_Valid_Tokens": 126285,
+        "Total_Characters": 268614,
+        "mode": "mono",
+        "language": "bul_Cyrl",
+        "corpus_key": "ep",
+        "checkpoint": "checkpoint-1000"
+    },
+    {
+        "NLL": 6.348669880322031,
+        "Perplexity": 571.7317314037598,
+        "BPC": 4.306063288111502,
+        "MRR": 0.11204095301182748,
+        "Total_Valid_Tokens": 126285,
+        "Total_Characters": 268614,
+        "mode": "mono",
+        "language": "bul_Cyrl",
+        "corpus_key": "ep",
+        "checkpoint": "checkpoint-2000"
+    },
+    {
+        "NLL": 6.353119872700702,
+        "Perplexity": 574.2816024968134,
+        "BPC": 4.309081550074305,
+        "MRR": 0.11561796477813545,
+        "Total_Valid_Tokens": 126285,
+        "Total_Characters": 268614,
+        "mode": "mono",
+        "language": "bul_Cyrl",
+        "corpus_key": "ep",
+        "checkpoint": "checkpoint-3000"
+    },
+    {
+        "NLL": 6.362313584816561,
+        "Perplexity": 579.585727160611,
+        "BPC": 4.315317298186878,
+        "MRR": 0.11538963113973509,
+        "Total_Valid_Tokens": 126285,
+        "Total_Characters": 268614,
+        "mode": "mono",
+        "language": "bul_Cyrl",
+        "corpus_key": "ep",
+        "checkpoint": "checkpoint-3550"
+    }
+]

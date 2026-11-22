@@ -1,0 +1,40 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "form-and-meaning"
+version = "1.0.0"
+description = "Reproduction code for Form and Meaning in Intrinsic Multilingual Evaluations"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "matplotlib>=3.10.0",
+    "numpy>=2.0.0",
+    "pandas>=2.2.0",
+    "seaborn>=0.13.2",
+]
+
+[project.optional-dependencies]
+training = [
+    "datasets>=4.0.0,<5",
+    "planit @ git+https://github.com/WPoelman/planit.git@b7e5982b4d3b621567c1557d87724825cd192882",
+    "submitit>=1.5.4,<2",
+    "tokenizers>=0.21.4,<0.22",
+    "transformers[torch]>=4.55.0,<4.56",
+]
+
+[project.scripts]
+plot-lm-metrics = "form_and_meaning.plot_lm_metrics:main"
+plot-paraphrase-consistency = "form_and_meaning.plot_paraphrase_consistency:main"
+
+[dependency-groups]
+dev = [
+    "ruff>=0.12.8",
+]
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.ruff]
+line-length = 120

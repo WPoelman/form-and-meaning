@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ruff_cache/
+
+# Environments and generated training data
+.venv/
+runs/
+data/prepared/
+
+# Editor and OS files
+.DS_Store
+.idea/
+.vscode/
